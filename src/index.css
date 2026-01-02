@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-miaza-600 hover:bg-miaza-700 text-white font-medium py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl;
+  }
+
+  .btn-secondary {
+    @apply bg-white hover:bg-miaza-50 text-miaza-700 font-medium py-3 px-8 rounded-lg border-2 border-miaza-600 transition-all duration-200;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-serif font-medium text-miaza-900 text-center mb-4;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-miaza-700 text-center max-w-2xl mx-auto mb-12;
+  }
+}
