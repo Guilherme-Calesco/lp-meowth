@@ -19,8 +19,8 @@ export function Footer() {
               <img src="/logo_horizontal.jpg" alt="MIAZA" className="h-12 w-auto rounded" />
             </div>
             <p className="text-miaza-400 mb-4 max-w-md">
-              Sistema de gestao para revendedoras de semijoias, bijuterias e acessorios.
-              Gerencie produtos, vendas, clientes e crie sua vitrine virtual. Por apenas R$ 29,90/mes.
+              Sistema de gestão para revendedoras de semijoias, bijuterias e acessórios.
+              Gerencie produtos, vendas, clientes e crie sua vitrine virtual. De R$ 69,90 por apenas R$ 29,90/mês.
             </p>
             <div className="flex gap-4">
               <a
@@ -53,7 +53,7 @@ export function Footer() {
               </li>
               <li>
                 <a href="#precos" className="text-miaza-400 hover:text-white transition-colors">
-                  Precos
+                  Preços
                 </a>
               </li>
               <li>

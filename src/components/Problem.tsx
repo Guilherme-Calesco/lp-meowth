@@ -2,16 +2,16 @@ import { AlertCircle, CheckCircle2 } from 'lucide-react'
 
 export function Problem() {
   const problems = [
-    'Anotacoes em caderninhos que se perdem ou rasgam',
+    'Anotações em caderninhos que se perdem ou rasgam',
     'Dificuldade em controlar quem deve e quanto deve',
-    'Cobrancas esquecidas e vendas perdidas',
+    'Cobranças esquecidas e vendas perdidas',
     'Sem saber qual produto vende mais ou seu lucro real',
   ]
 
   const solutions = [
     'Cadastro de produtos organizado por categoria',
-    'Historico completo de vendas e clientes',
-    'Relatorios de vendas e produtos mais vendidos',
+    'Histórico completo de vendas e clientes',
+    'Relatórios de vendas e produtos mais vendidos',
     'Vitrine virtual para compartilhar no WhatsApp',
   ]
 
@@ -20,10 +20,10 @@ export function Problem() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="section-title">
-            Chega de perder vendas por falta de organizacao
+            Chega de perder vendas por falta de organização
           </h2>
           <p className="section-subtitle">
-            Revendedoras de semijoias precisam de controle profissional para crescer. Veja a diferenca que o MIAZA faz no seu negocio.
+            Revendedoras de semijoias precisam de controle profissional para crescer. Veja a diferença que o MIAZA faz no seu negócio.
           </p>
         </div>
 

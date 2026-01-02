@@ -4,32 +4,32 @@ const benefits = [
   {
     icon: Cloud,
     title: 'Acesso Online',
-    description: 'Acesse do celular, tablet ou computador. Seus dados sempre disponiveis, em qualquer lugar.',
+    description: 'Acesse do celular, tablet ou computador. Seus dados sempre disponíveis, em qualquer lugar.',
   },
   {
     icon: Smartphone,
-    title: 'Facil de Usar',
+    title: 'Fácil de Usar',
     description: 'Interface simples e intuitiva. Comece a usar em minutos, sem precisar de treinamento.',
   },
   {
     icon: Shield,
     title: 'Dados Seguros',
-    description: 'Seus dados protegidos com criptografia e backups automaticos diarios.',
+    description: 'Seus dados protegidos com criptografia e backups automáticos diários.',
   },
   {
     icon: Users,
-    title: 'Ate 3 Vendedoras',
-    description: 'Adicione ate 3 vendedoras adicionais para ajudar nas vendas. Perfeito para equipes pequenas.',
+    title: 'Até 3 Vendedoras',
+    description: 'Adicione até 3 vendedoras adicionais para ajudar nas vendas. Perfeito para equipes pequenas.',
   },
   {
     icon: Zap,
     title: 'Sempre Atualizado',
-    description: 'Novas funcionalidades e melhorias constantes incluidas no plano, sem pagar a mais.',
+    description: 'Novas funcionalidades e melhorias constantes incluídas no plano, sem pagar a mais.',
   },
   {
     icon: HeartHandshake,
     title: 'Suporte via WhatsApp',
-    description: 'Equipe pronta para ajudar voce pelo WhatsApp. Tire duvidas e resolva problemas rapidamente.',
+    description: 'Equipe pronta para ajudar você pelo WhatsApp. Tire dúvidas e resolva problemas rapidamente.',
   },
 ]
 
@@ -42,7 +42,7 @@ export function Benefits() {
             Por que revendedoras de semijoias escolhem o MIAZA?
           </h2>
           <p className="text-lg text-miaza-300 text-center max-w-2xl mx-auto">
-            Sistema desenvolvido especialmente para quem trabalha com revenda de joias, semijoias e acessorios
+            Sistema desenvolvido especialmente para quem trabalha com revenda de joias, semijoias e acessórios
           </p>
         </div>
 

@@ -13,32 +13,32 @@ const features = [
   {
     icon: Package,
     title: 'Cadastro de Produtos',
-    description: 'Organize seu catalogo completo de semijoias por categoria: aneis, colares, pulseiras, brincos, relogios e acessorios. Adicione fotos, precos e controle seu estoque.',
+    description: 'Organize seu catálogo completo de semijoias por categoria: anéis, colares, pulseiras, brincos, relógios e acessórios. Adicione fotos, preços e controle seu estoque.',
   },
   {
     icon: ShoppingCart,
     title: 'Registro de Vendas',
-    description: 'Registre cada venda com facilidade. Multiplos itens, descontos personalizados e todas as formas de pagamento: dinheiro, PIX, cartao ou crediario.',
+    description: 'Registre cada venda com facilidade. Múltiplos itens, descontos personalizados e todas as formas de pagamento: dinheiro, PIX, cartão ou crediário.',
   },
   {
     icon: Users,
     title: 'Cadastro de Clientes',
-    description: 'Mantenha o cadastro completo das suas clientes com telefone, endereco e historico de compras. Nunca mais esqueca uma cliente.',
+    description: 'Mantenha o cadastro completo das suas clientes com telefone, endereço e histórico de compras. Nunca mais esqueça uma cliente.',
   },
   {
     icon: LayoutDashboard,
     title: 'Painel de Controle',
-    description: 'Acompanhe suas vendas do dia, do mes e valores a receber. Tudo em tempo real na palma da sua mao.',
+    description: 'Acompanhe suas vendas do dia, do mês e valores a receber. Tudo em tempo real na palma da sua mão.',
   },
   {
     icon: BarChart3,
-    title: 'Relatorios de Vendas',
-    description: 'Descubra quais produtos mais vendem, qual seu lucro por periodo e tome decisoes baseadas em dados reais do seu negocio.',
+    title: 'Relatórios de Vendas',
+    description: 'Descubra quais produtos mais vendem, qual seu lucro por período e tome decisões baseadas em dados reais do seu negócio.',
   },
   {
     icon: CreditCard,
-    title: 'Controle de Crediario',
-    description: 'Venda a prazo com seguranca. Controle parcelas, receba alertas de vencimento e nunca mais perca uma cobranca.',
+    title: 'Controle de Crediário',
+    description: 'Venda a prazo com segurança. Controle parcelas, receba alertas de vencimento e nunca mais perca uma cobrança.',
   },
 ]
 
@@ -51,7 +51,7 @@ export function Features() {
             Funcionalidades completas para revendedoras de semijoias
           </h2>
           <p className="section-subtitle">
-            Gerencie produtos, vendas, clientes e crie sua vitrine virtual. Tudo o que voce precisa para profissionalizar seu negocio de semijoias e acessorios.
+            Gerencie produtos, vendas, clientes e crie sua vitrine virtual. Tudo o que você precisa para profissionalizar seu negócio de semijoias e acessórios.
           </p>
         </div>
 
@@ -76,8 +76,8 @@ export function Features() {
                   </span>
                 </div>
                 <p className="text-miaza-100 text-lg leading-relaxed max-w-2xl">
-                  Crie sua vitrine virtual personalizada com suas melhores pecas e compartilhe o link
-                  no WhatsApp, Instagram ou grupos de vendas. Suas clientes visualizam os produtos com fotos e precos, escolhem o que querem e entram em contato direto com voce!
+                  Crie sua vitrine virtual personalizada com suas melhores peças e compartilhe o link
+                  no WhatsApp, Instagram ou grupos de vendas. Suas clientes visualizam os produtos com fotos e preços, escolhem o que querem e entram em contato direto com você!
                 </p>
               </div>
 

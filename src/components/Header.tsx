@@ -21,7 +21,7 @@ export function Header() {
               Funcionalidades
             </a>
             <a href="#precos" className="text-miaza-700 hover:text-miaza-900 transition-colors">
-              Precos
+              Preços
             </a>
             <a href="#faq" className="text-miaza-700 hover:text-miaza-900 transition-colors">
               FAQ
@@ -62,7 +62,7 @@ export function Header() {
                 className="text-miaza-700 hover:text-miaza-900 transition-colors px-2 py-1"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Precos
+                Preços
               </a>
               <a
                 href="#faq"

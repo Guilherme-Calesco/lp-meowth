@@ -1,13 +1,13 @@
 import { Check, ArrowRight } from 'lucide-react'
 
 const benefits = [
-  '7 dias gratis para testar',
+  '7 dias grátis para testar',
   'Todos os recursos inclusos',
-  'Ate 3 vendedoras adicionais',
+  'Até 3 vendedoras adicionais',
   'Vitrine virtual ilimitada',
-  'Relatorios completos de vendas',
+  'Relatórios completos de vendas',
   'Suporte por WhatsApp',
-  'Atualizacoes gratuitas',
+  'Atualizações gratuitas',
   'Cancele quando quiser',
 ]
 
@@ -20,7 +20,7 @@ export function Pricing() {
             Custando menos que um brinco
           </h2>
           <p className="section-subtitle">
-            Sistema completo de gestao para revendedoras por um preco que cabe no bolso. Sem surpresas, sem taxas escondidas.
+            Sistema completo de gestão para revendedoras por um preço que cabe no bolso. Sem surpresas, sem taxas escondidas.
           </p>
         </div>
 
@@ -29,13 +29,16 @@ export function Pricing() {
             {/* Price */}
             <div className="text-center mb-8">
               <p className="text-miaza-200 text-sm uppercase tracking-wider mb-2">
-                Plano Completo
+                Plano Completo - Por tempo limitado
               </p>
-              <div className="flex items-baseline justify-center gap-1">
+              <div className="flex items-baseline justify-center gap-2">
+                <span className="text-xl text-miaza-300 line-through">R$ 69,90</span>
+              </div>
+              <div className="flex items-baseline justify-center gap-1 mt-1">
                 <span className="text-2xl font-medium">R$</span>
                 <span className="text-6xl md:text-7xl font-serif font-medium">29</span>
                 <span className="text-2xl font-medium">,90</span>
-                <span className="text-miaza-200 ml-2">/mes</span>
+                <span className="text-miaza-200 ml-2">/mês</span>
               </div>
             </div>
 
@@ -56,14 +59,14 @@ export function Pricing() {
               rel="noopener noreferrer"
               className="w-full bg-white text-miaza-700 hover:bg-miaza-50 font-medium py-4 px-8 rounded-lg transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
             >
-              Comecar Teste Gratis
+              Começar Teste Grátis
               <ArrowRight size={20} />
             </a>
           </div>
 
           {/* Trust Note */}
           <p className="text-center text-miaza-500 text-sm mt-6">
-            Teste gratis por 7 dias. Sem cartao de credito. Sem compromisso.
+            Teste grátis por 7 dias. Sem cartão de crédito. Sem compromisso.
           </p>
         </div>
       </div>
