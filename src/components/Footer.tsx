@@ -1,4 +1,6 @@
-import { Mail, Phone, Instagram, Facebook } from 'lucide-react'
+import { Mail, Phone, Instagram, Facebook, ExternalLink } from 'lucide-react'
+
+const SYSTEM_URL = 'https://miaza.caveltech.com.br/'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -10,11 +12,11 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <img src="/logo.svg" alt="MIAZA" className="h-10 w-auto brightness-0 invert" />
-              <span className="text-xl font-serif font-medium">MIAZA</span>
+              <img src="/logo_horizontal.jpg" alt="MIAZA" className="h-12 w-auto rounded" />
             </div>
             <p className="text-miaza-400 mb-4 max-w-md">
-              Sistema completo de gestao para joalherias. Simplifique seu negocio e foque no que realmente importa: seus clientes.
+              Sistema completo para revendedoras e profissionais autonomas.
+              Organize suas vendas, clientes e cobrancas em um so lugar.
             </p>
             <div className="flex gap-4">
               <a
@@ -52,8 +54,14 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#contato" className="text-miaza-400 hover:text-white transition-colors">
-                  Contato
+                <a
+                  href={SYSTEM_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-miaza-400 hover:text-white transition-colors flex items-center gap-1"
+                >
+                  Acessar Sistema
+                  <ExternalLink size={14} />
                 </a>
               </li>
             </ul>

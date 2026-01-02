@@ -2,17 +2,17 @@ import { AlertCircle, CheckCircle2 } from 'lucide-react'
 
 export function Problem() {
   const problems = [
-    'Planilhas confusas e desorganizadas',
-    'Dificuldade em controlar o estoque',
+    'Anotacoes em caderninhos que se perdem',
+    'Dificuldade em lembrar quem deve o que',
     'Cobrancas perdidas e clientes inadimplentes',
-    'Falta de visao sobre o desempenho do negocio',
+    'Falta de controle sobre suas vendas e lucros',
   ]
 
   const solutions = [
-    'Sistema intuitivo e facil de usar',
-    'Controle de estoque em tempo real',
-    'Gestao de crediario e alertas de vencimento',
-    'Dashboard com metricas e relatorios completos',
+    'Tudo organizado no celular ou computador',
+    'Historico completo de cada cliente',
+    'Alertas de vencimento e gestao de crediario',
+    'Dashboard com suas vendas e resultados',
   ]
 
   return (
@@ -20,10 +20,10 @@ export function Problem() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="section-title">
-            Chega de dor de cabeca com a gestao
+            Chega de dor de cabeca com anotacoes
           </h2>
           <p className="section-subtitle">
-            Sabemos o quanto e dificil gerenciar uma joalheria sem as ferramentas certas
+            Sabemos como e dificil controlar vendas, clientes e cobrancas sem uma ferramenta adequada
           </p>
         </div>
 

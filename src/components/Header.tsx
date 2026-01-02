@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import { Menu, X } from 'lucide-react'
+import { Menu, X, ExternalLink } from 'lucide-react'
+
+const SYSTEM_URL = 'https://miaza.caveltech.com.br/'
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -10,8 +12,7 @@ export function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <img src="/logo.svg" alt="MIAZA" className="h-10 w-auto" />
-            <span className="text-xl font-serif font-medium text-miaza-800">MIAZA</span>
+            <img src="/logo_horizontal.jpg" alt="MIAZA" className="h-10 w-auto rounded" />
           </a>
 
           {/* Desktop Navigation */}
@@ -25,8 +26,14 @@ export function Header() {
             <a href="#faq" className="text-miaza-700 hover:text-miaza-900 transition-colors">
               FAQ
             </a>
-            <a href="#contato" className="btn-primary">
-              Comecar Agora
+            <a
+              href={SYSTEM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary flex items-center gap-2"
+            >
+              Acessar Sistema
+              <ExternalLink size={16} />
             </a>
           </nav>
 
@@ -65,11 +72,14 @@ export function Header() {
                 FAQ
               </a>
               <a
-                href="#contato"
-                className="btn-primary text-center"
+                href={SYSTEM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary text-center flex items-center justify-center gap-2"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Comecar Agora
+                Acessar Sistema
+                <ExternalLink size={16} />
               </a>
             </div>
           </nav>
