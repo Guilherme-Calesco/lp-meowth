@@ -1,6 +1,10 @@
-import { Mail, Phone, Instagram, Facebook, ExternalLink } from 'lucide-react'
+import { Mail, Phone, Instagram, Linkedin, ExternalLink } from 'lucide-react'
 
 const SYSTEM_URL = 'https://miaza.caveltech.com.br/'
+const WHATSAPP_URL = 'https://wa.me/5514998120558'
+const EMAIL = 'guilherme.carod@gmail.com'
+const INSTAGRAM_URL = 'https://www.instagram.com/miazajoias/'
+const LINKEDIN_URL = 'https://www.linkedin.com/in/guicalesco/'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -20,16 +24,20 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="#"
+                href={INSTAGRAM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-miaza-800 hover:bg-miaza-700 rounded-lg flex items-center justify-center transition-colors"
               >
                 <Instagram size={20} />
               </a>
               <a
-                href="#"
+                href={LINKEDIN_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-miaza-800 hover:bg-miaza-700 rounded-lg flex items-center justify-center transition-colors"
               >
-                <Facebook size={20} />
+                <Linkedin size={20} />
               </a>
             </div>
           </div>
@@ -73,22 +81,22 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="mailto:contato@miaza.com.br"
+                  href={`mailto:${EMAIL}`}
                   className="text-miaza-400 hover:text-white transition-colors flex items-center gap-2"
                 >
                   <Mail size={16} />
-                  contato@miaza.com.br
+                  {EMAIL}
                 </a>
               </li>
               <li>
                 <a
-                  href="https://wa.me/5511999999999"
+                  href={WHATSAPP_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-miaza-400 hover:text-white transition-colors flex items-center gap-2"
                 >
                   <Phone size={16} />
-                  (11) 99999-9999
+                  (14) 99812-0558
                 </a>
               </li>
             </ul>

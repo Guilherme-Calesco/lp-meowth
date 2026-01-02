@@ -1,6 +1,7 @@
-import { ArrowRight, ExternalLink, MessageCircle } from 'lucide-react'
+import { ExternalLink, MessageCircle } from 'lucide-react'
 
 const SYSTEM_URL = 'https://miaza.caveltech.com.br/'
+const WHATSAPP_URL = 'https://wa.me/5514998120558?text=Ola!%20Quero%20conhecer%20o%20MIAZA'
 
 export function CTA() {
   return (
@@ -31,7 +32,7 @@ export function CTA() {
                 Acessar o Sistema
               </a>
               <a
-                href="https://wa.me/5511999999999?text=Ola!%20Quero%20conhecer%20o%20MIAZA"
+                href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-miaza-500 hover:bg-miaza-400 text-white font-medium py-4 px-8 rounded-lg transition-all duration-200 flex items-center justify-center gap-2"
