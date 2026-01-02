@@ -32,7 +32,7 @@ export function Pricing() {
               </p>
               <div className="flex items-baseline justify-center gap-1">
                 <span className="text-2xl font-medium">R$</span>
-                <span className="text-6xl md:text-7xl font-serif font-medium">9</span>
+                <span className="text-6xl md:text-7xl font-serif font-medium">29</span>
                 <span className="text-2xl font-medium">,90</span>
                 <span className="text-miaza-200 ml-2">/mes</span>
               </div>
