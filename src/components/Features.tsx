@@ -12,33 +12,33 @@ import {
 const features = [
   {
     icon: Package,
-    title: 'Gestao de Produtos',
-    description: 'Cadastre seu catalogo completo de joias por categoria: aneis, colares, pulseiras, brincos e mais.',
+    title: 'Cadastro de Produtos',
+    description: 'Organize seu catalogo completo de semijoias por categoria: aneis, colares, pulseiras, brincos, relogios e acessorios. Adicione fotos, precos e controle seu estoque.',
   },
   {
     icon: ShoppingCart,
-    title: 'Controle de Vendas',
-    description: 'Registre vendas facilmente com multiplos itens, descontos e diversas formas de pagamento.',
+    title: 'Registro de Vendas',
+    description: 'Registre cada venda com facilidade. Multiplos itens, descontos personalizados e todas as formas de pagamento: dinheiro, PIX, cartao ou crediario.',
   },
   {
     icon: Users,
-    title: 'Gestao de Clientes',
-    description: 'Cadastro completo dos seus clientes com historico de compras e contatos.',
+    title: 'Cadastro de Clientes',
+    description: 'Mantenha o cadastro completo das suas clientes com telefone, endereco e historico de compras. Nunca mais esqueca uma cliente.',
   },
   {
     icon: LayoutDashboard,
-    title: 'Dashboard Inteligente',
-    description: 'Visualize suas vendas do dia, receitas mensais e contas a receber em tempo real.',
+    title: 'Painel de Controle',
+    description: 'Acompanhe suas vendas do dia, do mes e valores a receber. Tudo em tempo real na palma da sua mao.',
   },
   {
     icon: BarChart3,
-    title: 'Relatorios Completos',
-    description: 'Analise vendas por periodo e descubra os produtos mais vendidos.',
+    title: 'Relatorios de Vendas',
+    description: 'Descubra quais produtos mais vendem, qual seu lucro por periodo e tome decisoes baseadas em dados reais do seu negocio.',
   },
   {
     icon: CreditCard,
     title: 'Controle de Crediario',
-    description: 'Gerencie vendas a prazo e receba alertas de vencimentos.',
+    description: 'Venda a prazo com seguranca. Controle parcelas, receba alertas de vencimento e nunca mais perca uma cobranca.',
   },
 ]
 
@@ -48,10 +48,10 @@ export function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="section-title">
-            Tudo que voce precisa em um so lugar
+            Funcionalidades completas para revendedoras de semijoias
           </h2>
           <p className="section-subtitle">
-            Funcionalidades completas para revendedoras e profissionais autonomas
+            Gerencie produtos, vendas, clientes e crie sua vitrine virtual. Tudo o que voce precisa para profissionalizar seu negocio de semijoias e acessorios.
           </p>
         </div>
 
@@ -76,8 +76,8 @@ export function Features() {
                   </span>
                 </div>
                 <p className="text-miaza-100 text-lg leading-relaxed max-w-2xl">
-                  Selecione seus melhores produtos, crie uma vitrine personalizada e compartilhe o link
-                  no WhatsApp, Instagram ou grupos. Seus clientes visualizam e escolhem o que querem comprar!
+                  Crie sua vitrine virtual personalizada com suas melhores pecas e compartilhe o link
+                  no WhatsApp, Instagram ou grupos de vendas. Suas clientes visualizam os produtos com fotos e precos, escolhem o que querem e entram em contato direto com voce!
                 </p>
               </div>
 

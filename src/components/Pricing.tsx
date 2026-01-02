@@ -1,12 +1,13 @@
 import { Check, ArrowRight } from 'lucide-react'
 
 const benefits = [
+  '7 dias gratis para testar',
   'Todos os recursos inclusos',
-  'Usuarios ilimitados',
+  'Ate 3 vendedoras adicionais',
+  'Vitrine virtual ilimitada',
+  'Relatorios completos de vendas',
   'Suporte por WhatsApp',
   'Atualizacoes gratuitas',
-  'Backup automatico',
-  'Sem taxa de setup',
   'Cancele quando quiser',
 ]
 
@@ -16,10 +17,10 @@ export function Pricing() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="section-title">
-            Preco simples e acessivel
+            Custando menos que um brinco
           </h2>
           <p className="section-subtitle">
-            Sem surpresas, sem taxas escondidas. Tudo por um unico valor mensal.
+            Sistema completo de gestao para revendedoras por um preco que cabe no bolso. Sem surpresas, sem taxas escondidas.
           </p>
         </div>
 
@@ -50,17 +51,19 @@ export function Pricing() {
 
             {/* CTA */}
             <a
-              href="#contato"
+              href="https://miaza.caveltech.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full bg-white text-miaza-700 hover:bg-miaza-50 font-medium py-4 px-8 rounded-lg transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
             >
-              Quero Comecar Agora
+              Comecar Teste Gratis
               <ArrowRight size={20} />
             </a>
           </div>
 
           {/* Trust Note */}
           <p className="text-center text-miaza-500 text-sm mt-6">
-            Experimente por 7 dias gratis. Sem compromisso.
+            Teste gratis por 7 dias. Sem cartao de credito. Sem compromisso.
           </p>
         </div>
       </div>

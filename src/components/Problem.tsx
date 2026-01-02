@@ -2,17 +2,17 @@ import { AlertCircle, CheckCircle2 } from 'lucide-react'
 
 export function Problem() {
   const problems = [
-    'Anotacoes em caderninhos que se perdem',
-    'Dificuldade em lembrar quem deve o que',
-    'Cobrancas perdidas e clientes inadimplentes',
-    'Falta de controle sobre suas vendas e lucros',
+    'Anotacoes em caderninhos que se perdem ou rasgam',
+    'Dificuldade em controlar quem deve e quanto deve',
+    'Cobrancas esquecidas e vendas perdidas',
+    'Sem saber qual produto vende mais ou seu lucro real',
   ]
 
   const solutions = [
-    'Tudo organizado no celular ou computador',
-    'Historico completo de cada cliente',
-    'Alertas de vencimento e gestao de crediario',
-    'Dashboard com suas vendas e resultados',
+    'Cadastro de produtos organizado por categoria',
+    'Historico completo de vendas e clientes',
+    'Relatorios de vendas e produtos mais vendidos',
+    'Vitrine virtual para compartilhar no WhatsApp',
   ]
 
   return (
@@ -20,10 +20,10 @@ export function Problem() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="section-title">
-            Chega de dor de cabeca com anotacoes
+            Chega de perder vendas por falta de organizacao
           </h2>
           <p className="section-subtitle">
-            Sabemos como e dificil controlar vendas, clientes e cobrancas sem uma ferramenta adequada
+            Revendedoras de semijoias precisam de controle profissional para crescer. Veja a diferenca que o MIAZA faz no seu negocio.
           </p>
         </div>
 

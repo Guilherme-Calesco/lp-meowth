@@ -3,28 +3,28 @@ import { ChevronDown } from 'lucide-react'
 
 const faqs = [
   {
-    question: 'Como funciona o periodo de teste?',
-    answer: 'Voce tem 7 dias gratuitos para testar todas as funcionalidades do MIAZA. Durante esse periodo, voce tem acesso completo ao sistema sem nenhum compromisso. Se nao gostar, e so cancelar.',
+    question: 'Como funciona o teste gratis de 7 dias?',
+    answer: 'Voce tem 7 dias gratuitos para testar todas as funcionalidades do MIAZA, incluindo a vitrine virtual e os relatorios. Durante esse periodo, voce tem acesso completo ao sistema sem precisar cadastrar cartao de credito. Se nao gostar, e so nao continuar.',
+  },
+  {
+    question: 'O que esta incluso nos R$ 29,90/mes?',
+    answer: 'Tudo! Cadastro de produtos, registro de vendas, gestao de clientes, vitrine virtual para compartilhar no WhatsApp, relatorios completos, controle de crediario e suporte via WhatsApp. Sem taxas extras ou surpresas.',
+  },
+  {
+    question: 'Quantas vendedoras posso adicionar?',
+    answer: 'O MIAZA permite adicionar ate 3 vendedoras adicionais alem do usuario principal. Cada uma tera seu proprio acesso para registrar vendas e gerenciar clientes.',
+  },
+  {
+    question: 'Como funciona a vitrine virtual?',
+    answer: 'Voce seleciona os produtos que deseja mostrar, o sistema gera um link unico da sua vitrine que pode ser compartilhado no WhatsApp, Instagram ou grupos. Suas clientes visualizam os produtos com fotos e precos e entram em contato para comprar.',
   },
   {
     question: 'Posso cancelar a qualquer momento?',
-    answer: 'Sim! Nao temos fidelidade ou multas. Voce pode cancelar sua assinatura a qualquer momento diretamente pelo sistema ou entrando em contato conosco.',
-  },
-  {
-    question: 'Quantos usuarios posso ter?',
-    answer: 'O MIAZA permite usuarios ilimitados sem custo adicional. Voce pode adicionar vendedores, gerentes e outros colaboradores sem se preocupar com taxas extras.',
-  },
-  {
-    question: 'Meus dados estao seguros?',
-    answer: 'Absolutamente! Utilizamos criptografia de ponta a ponta e fazemos backups automaticos diarios. Seus dados estao protegidos em servidores seguros na nuvem.',
+    answer: 'Sim! Nao temos fidelidade ou multas. Voce pode cancelar sua assinatura a qualquer momento diretamente pelo sistema ou entrando em contato conosco pelo WhatsApp.',
   },
   {
     question: 'Preciso instalar alguma coisa?',
-    answer: 'Nao! O MIAZA funciona 100% online no seu navegador. Basta acessar o sistema de qualquer computador, tablet ou celular com acesso a internet.',
-  },
-  {
-    question: 'Como funciona o suporte?',
-    answer: 'Oferecemos suporte via WhatsApp e email em horario comercial. Nossa equipe esta pronta para ajudar com duvidas, configuracoes e qualquer problema que voce tiver.',
+    answer: 'Nao! O MIAZA funciona 100% online no seu navegador. Basta acessar o sistema de qualquer computador, tablet ou celular com acesso a internet. Seus dados ficam salvos na nuvem com backup automatico.',
   },
 ]
 
@@ -36,10 +36,10 @@ export function FAQ() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="section-title">
-            Perguntas Frequentes
+            Duvidas sobre o sistema para revendedoras?
           </h2>
           <p className="section-subtitle">
-            Tire suas duvidas sobre o MIAZA
+            Respondemos as perguntas mais frequentes sobre o MIAZA
           </p>
         </div>
 

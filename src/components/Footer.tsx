@@ -19,8 +19,8 @@ export function Footer() {
               <img src="/logo_horizontal.jpg" alt="MIAZA" className="h-12 w-auto rounded" />
             </div>
             <p className="text-miaza-400 mb-4 max-w-md">
-              Sistema completo para revendedoras e profissionais autonomas.
-              Organize suas vendas, clientes e cobrancas em um so lugar.
+              Sistema de gestao para revendedoras de semijoias, bijuterias e acessorios.
+              Gerencie produtos, vendas, clientes e crie sua vitrine virtual. Por apenas R$ 29,90/mes.
             </p>
             <div className="flex gap-4">
               <a

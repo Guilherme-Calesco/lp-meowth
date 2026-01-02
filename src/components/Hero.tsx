@@ -10,24 +10,29 @@ export function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-miaza-100 text-miaza-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
             <Sparkles size={16} />
-            Sistema completo para revendedoras de joias
+            Sistema de gestao para revendedoras de semijoias e acessorios
           </div>
 
           {/* Headline */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium text-miaza-900 leading-tight mb-6">
-            Controle suas vendas com{' '}
-            <span className="text-miaza-600">simplicidade</span> e{' '}
-            <span className="text-miaza-600">elegancia</span>
+            Sistema para revendedoras:{' '}
+            <span className="text-miaza-600">controle total</span> do seu negocio de{' '}
+            <span className="text-miaza-600">semijoias</span>
           </h1>
 
           {/* Subheadline */}
-          <p className="text-lg md:text-xl text-miaza-700 mb-8 max-w-2xl mx-auto">
-            MIAZA e o sistema ideal para revendedoras e profissionais autonomas.
-            Controle vendas, clientes, crie sua{' '}
-            <span className="font-semibold text-miaza-600">vitrine digital</span>{' '}
-            e compartilhe com seus clientes.
-            Tudo por apenas{' '}
-            <span className="font-semibold text-miaza-600">R$ 29,90/mes</span>.
+          <p className="text-lg md:text-xl text-miaza-700 mb-4 max-w-2xl mx-auto">
+            O MIAZA e o sistema completo para revendedoras de semijoias, bijuterias e acessorios.
+            Gerencie seus produtos, acompanhe vendas com relatorios detalhados, crie sua{' '}
+            <span className="font-semibold text-miaza-600">vitrine virtual</span>{' '}
+            e compartilhe no WhatsApp com suas clientes.
+          </p>
+
+          {/* Price highlight */}
+          <p className="text-xl md:text-2xl text-miaza-800 mb-8 max-w-2xl mx-auto font-medium">
+            Custando menos que um brinco:{' '}
+            <span className="text-miaza-600">R$ 29,90/mes</span>
+            <span className="block text-base text-miaza-600 mt-1">+ 7 dias gratis para testar</span>
           </p>
 
           {/* CTAs */}
@@ -38,7 +43,7 @@ export function Hero() {
               rel="noopener noreferrer"
               className="btn-primary flex items-center gap-2"
             >
-              Acessar o Sistema
+              Testar Gratis por 7 Dias
               <ExternalLink size={20} />
             </a>
             <a href="#funcionalidades" className="btn-secondary flex items-center gap-2">
@@ -49,7 +54,7 @@ export function Hero() {
 
           {/* Trust Badge */}
           <p className="mt-8 text-sm text-miaza-500">
-            Sem taxa de setup - Cancele quando quiser - Suporte incluso
+            7 dias gratis - Ate 3 vendedoras adicionais - Cancele quando quiser - Suporte via WhatsApp
           </p>
         </div>
 

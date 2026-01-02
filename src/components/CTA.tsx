@@ -14,11 +14,11 @@ export function CTA() {
 
           <div className="relative z-10">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-medium text-white mb-4">
-              Pronta para organizar suas vendas?
+              Pronta para profissionalizar suas vendas de semijoias?
             </h2>
             <p className="text-lg md:text-xl text-miaza-200 max-w-2xl mx-auto mb-8">
-              Comece agora e tenha controle total do seu negocio.
-              Por apenas <span className="font-semibold text-white">R$ 29,90/mes</span>.
+              Comece seu teste gratis de 7 dias e tenha controle total do seu negocio.
+              Depois, apenas <span className="font-semibold text-white">R$ 29,90/mes</span> - custando menos que um brinco.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -29,7 +29,7 @@ export function CTA() {
                 className="bg-white text-miaza-700 hover:bg-miaza-50 font-medium py-4 px-8 rounded-lg transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
               >
                 <ExternalLink size={20} />
-                Acessar o Sistema
+                Comecar Teste Gratis
               </a>
               <a
                 href={WHATSAPP_URL}
@@ -38,12 +38,12 @@ export function CTA() {
                 className="bg-miaza-500 hover:bg-miaza-400 text-white font-medium py-4 px-8 rounded-lg transition-all duration-200 flex items-center justify-center gap-2"
               >
                 <MessageCircle size={20} />
-                Falar no WhatsApp
+                Tirar Duvidas no WhatsApp
               </a>
             </div>
 
             <p className="text-miaza-300 text-sm mt-6">
-              Duvidas? Estamos aqui para ajudar!
+              7 dias gratis - Ate 3 vendedoras - Suporte via WhatsApp
             </p>
           </div>
         </div>
