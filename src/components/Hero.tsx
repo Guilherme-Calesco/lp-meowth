@@ -27,7 +27,7 @@ export function Hero() {
             <span className="font-semibold text-miaza-600">vitrine digital</span>{' '}
             e compartilhe com seus clientes.
             Tudo por apenas{' '}
-            <span className="font-semibold text-miaza-600">R$ 9,90/mes</span>.
+            <span className="font-semibold text-miaza-600">R$ 29,90/mes</span>.
           </p>
 
           {/* CTAs */}

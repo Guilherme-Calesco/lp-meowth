@@ -18,7 +18,7 @@ export function CTA() {
             </h2>
             <p className="text-lg md:text-xl text-miaza-200 max-w-2xl mx-auto mb-8">
               Comece agora e tenha controle total do seu negocio.
-              Por apenas <span className="font-semibold text-white">R$ 9,90/mes</span>.
+              Por apenas <span className="font-semibold text-white">R$ 29,90/mes</span>.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
