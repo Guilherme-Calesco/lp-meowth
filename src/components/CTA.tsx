@@ -1,7 +1,7 @@
 import { ExternalLink, MessageCircle } from 'lucide-react'
 
 const SYSTEM_URL = 'https://miaza.caveltech.com.br/'
-const WHATSAPP_URL = 'https://wa.me/5514998120558?text=Ola!%20Quero%20conhecer%20o%20MIAZA'
+const WHATSAPP_URL = 'https://wa.me/5514991820558?text=Ola!%20Quero%20conhecer%20o%20MIAZA'
 
 export function CTA() {
   return (
