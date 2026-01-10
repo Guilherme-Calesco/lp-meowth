@@ -19,7 +19,7 @@ export function Footer() {
               <img src="/logo_horizontal.jpg" alt="MIAZA" className="h-12 w-auto rounded" />
             </div>
             <p className="text-miaza-400 mb-4 max-w-md">
-              Sistema de gestão para revendedoras de semijoias, bijuterias e acessórios.
+              Sistema de gestão para revendedores e artesãos.
               Gerencie produtos, vendas, clientes e crie sua vitrine virtual. De R$ 69,90 por apenas R$ 29,90/mês.
             </p>
             <div className="flex gap-4">

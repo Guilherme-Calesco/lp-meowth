@@ -3,7 +3,7 @@ import { Check, ArrowRight } from 'lucide-react'
 const benefits = [
   '7 dias grátis para testar',
   'Todos os recursos inclusos',
-  'Até 3 vendedoras adicionais',
+  'Até 3 vendedores adicionais',
   'Vitrine virtual ilimitada',
   'Relatórios completos de vendas',
   'Suporte por WhatsApp',
@@ -20,7 +20,7 @@ export function Pricing() {
             Custando menos que um brinco
           </h2>
           <p className="section-subtitle">
-            Sistema completo de gestão para revendedoras por um preço que cabe no bolso. Sem surpresas, sem taxas escondidas.
+            Sistema completo de gestão para revendedores e artesãos por um preço que cabe no bolso. Sem surpresas, sem taxas escondidas.
           </p>
         </div>
 

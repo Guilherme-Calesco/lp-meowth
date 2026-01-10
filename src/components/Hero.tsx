@@ -10,22 +10,22 @@ export function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-miaza-100 text-miaza-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
             <Sparkles size={16} />
-            Sistema de gestão para revendedoras de semijoias e acessórios
+            Sistema de gestão para revendedores e artesãos
           </div>
 
           {/* Headline */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium text-miaza-900 leading-tight mb-6">
-            Sistema para revendedoras:{' '}
-            <span className="text-miaza-600">controle total</span> do seu negócio de{' '}
-            <span className="text-miaza-600">semijoias</span>
+            Sistema para revendedores:{' '}
+            <span className="text-miaza-600">controle total</span> do seu{' '}
+            <span className="text-miaza-600">negócio</span>
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-miaza-700 mb-4 max-w-2xl mx-auto">
-            O MIAZA é o sistema completo para revendedoras de semijoias, bijuterias e acessórios.
+            O MIAZA é o sistema completo para quem trabalha com revenda ou artesanato.
             Gerencie seus produtos, acompanhe vendas com relatórios detalhados, crie sua{' '}
             <span className="font-semibold text-miaza-600">vitrine virtual</span>{' '}
-            e compartilhe no WhatsApp com suas clientes.
+            e compartilhe no WhatsApp com seus clientes.
           </p>
 
           {/* Price highlight */}
@@ -90,16 +90,16 @@ export function Hero() {
                 </div>
                 <div className="h-24 bg-gradient-to-r from-miaza-100 to-miaza-200 rounded-lg flex items-center justify-center gap-4">
                   <div className="w-16 h-16 bg-white rounded-lg shadow-sm flex items-center justify-center text-miaza-400">
-                    <span className="text-2xl">💍</span>
+                    <span className="text-2xl">🛍️</span>
                   </div>
                   <div className="w-16 h-16 bg-white rounded-lg shadow-sm flex items-center justify-center text-miaza-400">
-                    <span className="text-2xl">📿</span>
+                    <span className="text-2xl">🎨</span>
                   </div>
                   <div className="w-16 h-16 bg-white rounded-lg shadow-sm flex items-center justify-center text-miaza-400">
-                    <span className="text-2xl">💎</span>
+                    <span className="text-2xl">📦</span>
                   </div>
                   <div className="hidden sm:flex w-16 h-16 bg-white rounded-lg shadow-sm items-center justify-center text-miaza-400">
-                    <span className="text-2xl">⌚</span>
+                    <span className="text-2xl">✨</span>
                   </div>
                 </div>
               </div>

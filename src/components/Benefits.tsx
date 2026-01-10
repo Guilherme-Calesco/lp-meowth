@@ -18,8 +18,8 @@ const benefits = [
   },
   {
     icon: Users,
-    title: 'Até 3 Vendedoras',
-    description: 'Adicione até 3 vendedoras adicionais para ajudar nas vendas. Perfeito para equipes pequenas.',
+    title: 'Até 3 Vendedores',
+    description: 'Adicione até 3 vendedores adicionais para ajudar nas vendas. Perfeito para equipes pequenas.',
   },
   {
     icon: Zap,
@@ -39,10 +39,10 @@ export function Benefits() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-serif font-medium text-white text-center mb-4">
-            Por que revendedoras de semijoias escolhem o MIAZA?
+            Por que revendedores e artesãos escolhem o MIAZA?
           </h2>
           <p className="text-lg text-miaza-300 text-center max-w-2xl mx-auto">
-            Sistema desenvolvido especialmente para quem trabalha com revenda de joias, semijoias e acessórios
+            Sistema desenvolvido especialmente para quem trabalha com revenda ou artesanato
           </p>
         </div>
 

@@ -14,7 +14,7 @@ export function CTA() {
 
           <div className="relative z-10">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-medium text-white mb-4">
-              Pronta para profissionalizar suas vendas de semijoias?
+              Pronto para profissionalizar suas vendas?
             </h2>
             <p className="text-lg md:text-xl text-miaza-200 max-w-2xl mx-auto mb-8">
               Comece seu teste grátis de 7 dias e tenha controle total do seu negócio.
@@ -44,7 +44,7 @@ export function CTA() {
             </div>
 
             <p className="text-miaza-300 text-sm mt-6">
-              7 dias grátis - Até 3 vendedoras - Suporte via WhatsApp
+              7 dias grátis - Até 3 vendedores - Suporte via WhatsApp
             </p>
           </div>
         </div>

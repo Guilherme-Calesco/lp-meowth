@@ -13,7 +13,7 @@ const features = [
   {
     icon: Package,
     title: 'Cadastro de Produtos',
-    description: 'Organize seu catálogo completo de semijoias por categoria: anéis, colares, pulseiras, brincos, relógios e acessórios. Adicione fotos, preços e controle seu estoque.',
+    description: 'Organize seu catálogo completo por categoria. Adicione fotos, preços e controle seu estoque de forma simples e eficiente.',
   },
   {
     icon: ShoppingCart,
@@ -23,7 +23,7 @@ const features = [
   {
     icon: Users,
     title: 'Cadastro de Clientes',
-    description: 'Mantenha o cadastro completo das suas clientes com telefone, endereço e histórico de compras. Nunca mais esqueça uma cliente.',
+    description: 'Mantenha o cadastro completo dos seus clientes com telefone, endereço e histórico de compras. Nunca mais esqueça um cliente.',
   },
   {
     icon: LayoutDashboard,
@@ -48,10 +48,10 @@ export function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="section-title">
-            Funcionalidades completas para revendedoras de semijoias
+            Funcionalidades completas para seu negócio
           </h2>
           <p className="section-subtitle">
-            Gerencie produtos, vendas, clientes e crie sua vitrine virtual. Tudo o que você precisa para profissionalizar seu negócio de semijoias e acessórios.
+            Gerencie produtos, vendas, clientes e crie sua vitrine virtual. Tudo o que você precisa para profissionalizar sua revenda ou artesanato.
           </p>
         </div>
 

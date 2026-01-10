@@ -11,12 +11,12 @@ const faqs = [
     answer: 'Tudo! Cadastro de produtos, registro de vendas, gestão de clientes, vitrine virtual para compartilhar no WhatsApp, relatórios completos, controle de crediário e suporte via WhatsApp. Sem taxas extras ou surpresas.',
   },
   {
-    question: 'Quantas vendedoras posso adicionar?',
-    answer: 'O MIAZA permite adicionar até 3 vendedoras adicionais além do usuário principal. Cada uma terá seu próprio acesso para registrar vendas e gerenciar clientes.',
+    question: 'Quantos vendedores posso adicionar?',
+    answer: 'O MIAZA permite adicionar até 3 vendedores adicionais além do usuário principal. Cada um terá seu próprio acesso para registrar vendas e gerenciar clientes.',
   },
   {
     question: 'Como funciona a vitrine virtual?',
-    answer: 'Você seleciona os produtos que deseja mostrar, o sistema gera um link único da sua vitrine que pode ser compartilhado no WhatsApp, Instagram ou grupos. Suas clientes visualizam os produtos com fotos e preços e entram em contato para comprar.',
+    answer: 'Você seleciona os produtos que deseja mostrar, o sistema gera um link único da sua vitrine que pode ser compartilhado no WhatsApp, Instagram ou grupos. Seus clientes visualizam os produtos com fotos e preços e entram em contato para comprar.',
   },
   {
     question: 'Posso cancelar a qualquer momento?',
@@ -36,7 +36,7 @@ export function FAQ() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="section-title">
-            Dúvidas sobre o sistema para revendedoras?
+            Dúvidas sobre o sistema?
           </h2>
           <p className="section-subtitle">
             Respondemos as perguntas mais frequentes sobre o MIAZA

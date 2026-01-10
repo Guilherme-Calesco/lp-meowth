@@ -23,7 +23,7 @@ export function Problem() {
             Chega de perder vendas por falta de organização
           </h2>
           <p className="section-subtitle">
-            Revendedoras de semijoias precisam de controle profissional para crescer. Veja a diferença que o MIAZA faz no seu negócio.
+            Revendedores e artesãos precisam de controle profissional para crescer. Veja a diferença que o MIAZA faz no seu negócio.
           </p>
         </div>
 
