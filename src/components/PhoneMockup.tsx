@@ -16,12 +16,9 @@ export function PhoneMockup({ imageSrc, alt, caption, lazy = false, className = 
       {/* Phone Frame */}
       <div className="relative w-full max-w-[280px] mx-auto">
         {/* Phone Shadow and Border */}
-        <div className="relative bg-miaza-900 rounded-[2.5rem] p-2 shadow-2xl">
+        <div className="relative bg-miaza-900 rounded-[2.5rem] p-3 shadow-2xl">
           {/* Screen */}
           <div className="relative bg-white rounded-[2rem] overflow-hidden">
-            {/* Notch (opcional - estilo iPhone) */}
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-miaza-900 rounded-b-2xl z-10"></div>
-
             {/* Image with responsive sources */}
             {isWebP ? (
               <picture>
@@ -43,7 +40,7 @@ export function PhoneMockup({ imageSrc, alt, caption, lazy = false, className = 
                   src={`${baseName}.png`}
                   alt={alt}
                   loading={lazy ? 'lazy' : 'eager'}
-                  className="w-full h-auto aspect-[9/19.5] object-cover"
+                  className="w-full h-auto display-block"
                 />
               </picture>
             ) : (
@@ -51,7 +48,7 @@ export function PhoneMockup({ imageSrc, alt, caption, lazy = false, className = 
                 src={imageSrc}
                 alt={alt}
                 loading={lazy ? 'lazy' : 'eager'}
-                className="w-full h-auto aspect-[9/19.5] object-cover"
+                className="w-full h-auto display-block"
               />
             )}
           </div>
