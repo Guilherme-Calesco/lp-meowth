@@ -1,4 +1,5 @@
-import { ArrowRight, Sparkles, ExternalLink, Share2 } from 'lucide-react'
+import { ArrowRight, Sparkles, ExternalLink } from 'lucide-react'
+import { PhoneMockup } from './PhoneMockup'
 
 const SYSTEM_URL = 'https://miaza.caveltech.com.br/'
 
@@ -59,52 +60,14 @@ export function Hero() {
           </p>
         </div>
 
-        {/* Dashboard Mockup */}
-        <div className="mt-16 relative">
-          <div className="bg-white rounded-2xl shadow-2xl border border-miaza-100 overflow-hidden">
-            <div className="bg-miaza-800 h-8 flex items-center px-4 gap-2">
-              <div className="w-3 h-3 rounded-full bg-red-400"></div>
-              <div className="w-3 h-3 rounded-full bg-yellow-400"></div>
-              <div className="w-3 h-3 rounded-full bg-green-400"></div>
-            </div>
-            <div className="p-4 md:p-8 bg-gray-100">
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-                {[
-                  { label: 'Vendas Hoje', value: 'R$ 850' },
-                  { label: 'Vendas no Mes', value: 'R$ 12.500' },
-                  { label: 'Clientes Ativos', value: '48' },
-                  { label: 'Produtos', value: '156' },
-                ].map((stat, index) => (
-                  <div key={index} className="bg-white p-4 rounded-lg shadow-sm">
-                    <p className="text-sm text-miaza-500">{stat.label}</p>
-                    <p className="text-xl font-semibold text-miaza-900">{stat.value}</p>
-                  </div>
-                ))}
-              </div>
-              {/* Vitrine Preview */}
-              <div className="bg-white rounded-lg shadow-sm p-4">
-                <div className="flex items-center gap-2 mb-3">
-                  <Share2 size={16} className="text-miaza-600" />
-                  <span className="text-sm font-medium text-miaza-700">Vitrine Digital</span>
-                  <span className="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full">Ativa</span>
-                </div>
-                <div className="h-24 bg-gradient-to-r from-miaza-100 to-miaza-200 rounded-lg flex items-center justify-center gap-4">
-                  <div className="w-16 h-16 bg-white rounded-lg shadow-sm flex items-center justify-center text-miaza-400">
-                    <span className="text-2xl">🛍️</span>
-                  </div>
-                  <div className="w-16 h-16 bg-white rounded-lg shadow-sm flex items-center justify-center text-miaza-400">
-                    <span className="text-2xl">🎨</span>
-                  </div>
-                  <div className="w-16 h-16 bg-white rounded-lg shadow-sm flex items-center justify-center text-miaza-400">
-                    <span className="text-2xl">📦</span>
-                  </div>
-                  <div className="hidden sm:flex w-16 h-16 bg-white rounded-lg shadow-sm items-center justify-center text-miaza-400">
-                    <span className="text-2xl">✨</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        {/* App Screenshot */}
+        <div className="mt-16 relative animate-fade-in">
+          <PhoneMockup
+            imageSrc="/apphome.webp"
+            alt="Dashboard MIAZA - Acompanhe suas vendas em tempo real"
+            lazy={false}
+            className="scale-90 md:scale-100 transition-transform hover:scale-105 duration-300"
+          />
         </div>
       </div>
     </section>
