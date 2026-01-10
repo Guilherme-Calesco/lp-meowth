@@ -1,7 +1,7 @@
 import { Mail, Phone, Instagram, Linkedin, ExternalLink } from 'lucide-react'
 
 const SYSTEM_URL = 'https://miaza.caveltech.com.br/'
-const WHATSAPP_URL = 'https://wa.me/5514998120558'
+const WHATSAPP_URL = 'https://wa.me/5514991820558'
 const EMAIL = 'guilherme.carod@gmail.com'
 const INSTAGRAM_URL = 'https://www.instagram.com/miazajoias/'
 const LINKEDIN_URL = 'https://www.linkedin.com/in/guicalesco/'
@@ -96,7 +96,7 @@ export function Footer() {
                   className="text-miaza-400 hover:text-white transition-colors flex items-center gap-2"
                 >
                   <Phone size={16} />
-                  (14) 99812-0558
+                  (14) 99182-0558
                 </a>
               </li>
             </ul>
