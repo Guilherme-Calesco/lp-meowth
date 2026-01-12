@@ -11,6 +11,7 @@ import {
 const AppGallery = lazy(() => import('./components/AppGallery').then(m => ({ default: m.AppGallery })))
 const Pricing = lazy(() => import('./components/Pricing').then(m => ({ default: m.Pricing })))
 const Benefits = lazy(() => import('./components/Benefits').then(m => ({ default: m.Benefits })))
+const Story = lazy(() => import('./components/Story').then(m => ({ default: m.Story })))
 const FAQ = lazy(() => import('./components/FAQ').then(m => ({ default: m.FAQ })))
 const CTA = lazy(() => import('./components/CTA').then(m => ({ default: m.CTA })))
 
@@ -42,6 +43,10 @@ function App() {
 
         <Suspense fallback={<LazyLoadFallback />}>
           <Benefits />
+        </Suspense>
+
+        <Suspense fallback={<LazyLoadFallback />}>
+          <Story />
         </Suspense>
 
         <Suspense fallback={<LazyLoadFallback />}>

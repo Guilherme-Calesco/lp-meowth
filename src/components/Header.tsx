@@ -23,6 +23,9 @@ export function Header() {
             <a href="#precos" className="text-miaza-700 hover:text-miaza-900 transition-colors">
               Preços
             </a>
+            <a href="#historia" className="text-miaza-700 hover:text-miaza-900 transition-colors">
+              Nossa História
+            </a>
             <a href="#faq" className="text-miaza-700 hover:text-miaza-900 transition-colors">
               FAQ
             </a>
@@ -63,6 +66,13 @@ export function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Preços
+              </a>
+              <a
+                href="#historia"
+                className="text-miaza-700 hover:text-miaza-900 transition-colors px-2 py-1"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Nossa História
               </a>
               <a
                 href="#faq"
