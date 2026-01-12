@@ -22,7 +22,7 @@ export function Story() {
                 />
               </div>
               <div className="absolute -bottom-2 -right-2 bg-miaza-600 text-white px-3 py-1 rounded-full text-sm font-medium shadow-md">
-                Fundador
+                Fundadores
               </div>
             </div>
           </div>
@@ -44,11 +44,11 @@ export function Story() {
             <div className="bg-miaza-50 rounded-xl p-5 border border-miaza-100">
               <p className="text-miaza-800 leading-relaxed">
                 <span className="font-semibold text-miaza-600">O Miaza nasceu de uma necessidade real:</span>{' '}
-                ajudar a gestão das vendas de uma loja de semijoias. O que começou como uma solução
-                caseira rapidamente mostrou seu potencial. Clientes e amigos começaram a perguntar
-                sobre o sistema, e a demanda crescente transformou um projeto pessoal em um produto
-                completo. Hoje, o Miaza ajuda empreendedores a organizarem suas vendas com a mesma
-                simplicidade e eficiência que conquistou os primeiros usuários.
+                ajudar a gestão das vendas de uma loja de semijoias da minha namorada. O que começou
+                como uma solução caseira rapidamente mostrou seu potencial. Clientes e amigos começaram
+                a perguntar sobre o sistema, e a demanda crescente transformou um projeto pessoal em
+                um produto completo. Hoje, o Miaza ajuda empreendedores a organizarem suas vendas com
+                a mesma simplicidade e eficiência que conquistou os primeiros usuários.
               </p>
             </div>
 
